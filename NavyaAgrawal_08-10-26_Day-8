@@ -1,0 +1,12 @@
+## PROBLEM-41A
+## DESCRIPTION
+I just checked if the t input was the reverse of the s input
+## CODE
+```python
+s=input()
+t=input()
+if t==s[::-1]:
+	print('YES')
+else:
+	print('NO')
+```
